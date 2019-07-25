@@ -1,5 +1,7 @@
 <?php
 
+namespace Suilven\Spriter;
+
 /**
  * @class Spriter
  * @author Christian Stuff <christian.stuff@namics.com>
