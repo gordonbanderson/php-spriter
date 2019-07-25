@@ -1,0 +1,36 @@
+{
+    "name": "suilven/php-striper",
+    "description": "Create CSS sprites from PHP",
+    "type": "library",
+    "keywords": [
+        "css",
+        "sprites"
+    ],
+    "authors": [
+        {
+            "name": "Gordon Anderson",
+            "email": "gordon.b.anderson@gmail.com",
+            "homepage": "https://github.com/gordonbanderson/php-spriter",
+            "role": "Developer"
+        },
+		{
+			"name": "Christian Stuff",
+			"email": "christian.stuff@namics.com",
+			"homepage": "https://github.com/namics/php-spriter",
+			"role": "Original Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Suilven\\Spriter\\": "src"
+		}
+	},
+    "support": {
+        "issues": "https://github.com/gordonbanderson/php-spriter/issues"
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "require-dev": {}
+}
