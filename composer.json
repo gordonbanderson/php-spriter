@@ -32,5 +32,8 @@
         "php": ">=5.6"
     },
     "license": "MIT",
-    "require-dev": {}
+    "require-dev": {},
+	
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
