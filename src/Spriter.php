@@ -367,6 +367,7 @@ class Spriter {
 							"{{namespace}}"       => $this->namespace,
 							"{{checksum}}"        => $this->spriteChecksum,
 							"{{timestamp}}"       => $this->timestamp,
+							"{{iconSuffix}}"      => $this->iconSuffix,
 
 							"{{spriteDirectory}}" => $this->spriteFilepath, // deprecated
 						);
