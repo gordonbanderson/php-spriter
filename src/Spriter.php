@@ -30,6 +30,7 @@ class Spriter {
 	protected $forceGenerate = false;
 	protected $ignoreHover = false;
 	protected $hoverSuffix = "-hover";
+	protected $iconSuffix = '';
 
 	protected $targets = array();
 
@@ -332,6 +333,7 @@ class Spriter {
 				"{{namespace}}"       => $this->namespace,
 				"{{checksum}}"        => $this->spriteChecksum,
 				"{{timestamp}}"       => $this->timestamp,
+				"{{iconSuffix}}"      => $this->iconSuffix,
 
 				"{{spriteDirectory}}" => $this->spriteFilepath // deprecated
 			);

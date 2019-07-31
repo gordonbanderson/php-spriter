@@ -1,4 +1,4 @@
-.icon, .icon-after:after, .icon-before:before {
+.icon{{iconSuffix}}, .icon{{iconSuffix}}-after:after, .icon{{iconSuffix}}-before:before {
 	background-image: url({{sprite}});
 	background-repeat: no-repeat;
 	background-size: {{width}} {{height}};
